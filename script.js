@@ -106,3 +106,33 @@ behavior:"smooth"
 });
 
 });
+const playBtn = document.getElementById("playBtn");
+const song = document.getElementById("song");
+
+if(playBtn && song){
+
+let playing = false;
+
+playBtn.onclick = () => {
+
+if(!playing){
+
+song.play();
+
+playBtn.innerHTML = "❚❚";
+
+playing = true;
+
+}else{
+
+song.pause();
+
+playBtn.innerHTML = "▶";
+
+playing = false;
+
+}
+
+};
+
+}
