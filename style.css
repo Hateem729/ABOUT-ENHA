@@ -681,3 +681,91 @@ color:white;
 border-bottom:1px solid rgba(255,255,255,.1);
 
 }
+/* =========================
+   BIAS SECTION
+========================= */
+
+.bias{
+
+padding:100px 10%;
+
+text-align:center;
+
+background:linear-gradient(180deg,#150015,#250025,#330000);
+
+}
+
+.bias h2{
+
+font-size:50px;
+
+color:#ff1744;
+
+margin-bottom:20px;
+
+}
+
+.bias p{
+
+font-size:20px;
+
+margin-bottom:40px;
+
+color:#dddddd;
+
+}
+
+.bias-grid{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+
+gap:20px;
+
+max-width:900px;
+
+margin:auto;
+
+}
+
+.bias-grid button{
+
+padding:18px;
+
+border:none;
+
+border-radius:40px;
+
+font-size:18px;
+
+font-weight:bold;
+
+background:linear-gradient(45deg,#ff1744,#b000f5);
+
+color:white;
+
+cursor:pointer;
+
+transition:.3s;
+
+}
+
+.bias-grid button:hover{
+
+transform:translateY(-5px);
+
+box-shadow:0 0 20px #ff1744;
+
+}
+
+#result{
+
+margin-top:40px;
+
+font-size:30px;
+
+color:#d500f9;
+
+}
+
