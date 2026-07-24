@@ -42,3 +42,18 @@ document.getElementById("result").innerHTML =
 "💜 Your Bias is <span style='color:#ff1744'>" + member + "</span> 💜";
 
 }
+const form = document.querySelector(".contact form");
+
+if(form){
+
+form.addEventListener("submit", function(e){
+
+e.preventDefault();
+
+alert("💜 Thank you for supporting ENHYPEN! Your message has been received.");
+
+form.reset();
+
+});
+
+}
