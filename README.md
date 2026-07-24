@@ -8,7 +8,7 @@ ENHYPEN-BIAS
 ├── script.js
 ├── style.css
 ├── README.md
-├── music.mp3 (optional for now)
+├── music.mp3
 │
 ├── images
 │   ├── jungwon.jpg
