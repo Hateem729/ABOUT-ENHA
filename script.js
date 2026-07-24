@@ -36,3 +36,9 @@ lightbox.style.display="none";
 });
 
 }
+function vote(member){
+
+document.getElementById("result").innerHTML =
+"💜 Your Bias is <span style='color:#ff1744'>" + member + "</span> 💜";
+
+}
