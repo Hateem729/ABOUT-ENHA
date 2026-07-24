@@ -205,4 +205,171 @@ transform:scale(1.08);
 box-shadow:0 0 35px #ff1744;
 
 }
+/* =========================
+   INTRO SECTION
+========================= */
+
+.intro{
+    padding:100px 10%;
+    text-align:center;
+    background:#0f0f0f;
+}
+
+.intro h2{
+    font-size:48px;
+    color:#ff1744;
+    margin-bottom:20px;
+}
+
+.intro p{
+    max-width:900px;
+    margin:auto;
+    font-size:20px;
+    line-height:1.8;
+    color:#dddddd;
+}
+
+/* =========================
+   OT7 PREVIEW
+========================= */
+
+.preview{
+    padding:100px 10%;
+    text-align:center;
+    background:linear-gradient(180deg,#120012,#1a001a,#220022);
+}
+
+.preview h2{
+    font-size:50px;
+    color:#d500f9;
+    margin-bottom:40px;
+}
+
+.preview img{
+    width:90%;
+    max-width:1100px;
+    border-radius:20px;
+    box-shadow:0 0 35px rgba(213,0,249,.5);
+    transition:.4s;
+}
+
+.preview img:hover{
+    transform:scale(1.02);
+    box-shadow:0 0 45px rgba(255,23,68,.7);
+}
+
+.preview p{
+    margin:35px auto;
+    max-width:850px;
+    font-size:20px;
+    line-height:1.8;
+    color:#eeeeee;
+}
+
+.preview button{
+    padding:16px 40px;
+    border:none;
+    border-radius:40px;
+    background:linear-gradient(45deg,#ff1744,#7b1fa2);
+    color:#fff;
+    font-size:18px;
+    font-weight:600;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.preview button:hover{
+    transform:translateY(-4px);
+    box-shadow:0 0 25px #ff1744;
+}
+
+/* =========================
+   FOOTER
+========================= */
+
+footer{
+    background:#080808;
+    text-align:center;
+    padding:50px 20px;
+    border-top:2px solid rgba(255,23,68,.2);
+}
+
+footer h3{
+    color:#ff1744;
+    font-size:30px;
+    margin-bottom:15px;
+}
+
+footer p{
+    color:#cccccc;
+    margin:10px 0;
+}
+
+/* =========================
+   ANIMATION
+========================= */
+
+@keyframes glow{
+
+    from{
+        text-shadow:0 0 15px #ff1744;
+    }
+
+    to{
+        text-shadow:
+        0 0 20px #ff1744,
+        0 0 40px #d500f9,
+        0 0 60px #ff1744;
+    }
+
+}
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media (max-width:768px){
+
+    nav{
+        padding:15px 20px;
+        flex-direction:column;
+        gap:15px;
+    }
+
+    nav ul{
+        flex-wrap:wrap;
+        justify-content:center;
+    }
+
+    nav ul li{
+        margin:8px 12px;
+    }
+
+    .hero h1{
+        font-size:52px;
+    }
+
+    .hero h2{
+        font-size:22px;
+    }
+
+    .hero p{
+        font-size:16px;
+    }
+
+    .intro h2,
+    .preview h2{
+        font-size:36px;
+    }
+
+    .intro p,
+    .preview p{
+        font-size:17px;
+    }
+
+    .preview img{
+        width:100%;
+    }
+
+}
 
