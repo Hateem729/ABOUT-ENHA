@@ -71,9 +71,9 @@ setTimeout(()=>{
 
 loader.style.display="none";
 
-},800);
+},1000);
 
-},1500);
+},3000);
 
 });
 
