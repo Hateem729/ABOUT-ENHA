@@ -588,3 +588,96 @@ color:white;
 cursor:pointer;
 
 }
+/* =========================
+   ABOUT PAGE
+========================= */
+
+.about-page{
+
+padding:140px 10% 80px;
+
+text-align:center;
+
+}
+
+.about-page h1{
+
+font-size:60px;
+
+color:#ff1744;
+
+margin-bottom:40px;
+
+}
+
+.about-banner{
+
+width:100%;
+
+max-width:1000px;
+
+border-radius:20px;
+
+box-shadow:0 0 35px rgba(213,0,249,.6);
+
+margin-bottom:50px;
+
+}
+
+.about-box{
+
+background:rgba(255,255,255,.05);
+
+backdrop-filter:blur(12px);
+
+padding:35px;
+
+margin:30px auto;
+
+max-width:900px;
+
+border-radius:20px;
+
+box-shadow:0 0 20px rgba(255,23,68,.2);
+
+}
+
+.about-box h2{
+
+color:#d500f9;
+
+margin-bottom:20px;
+
+font-size:32px;
+
+}
+
+.about-box p{
+
+font-size:18px;
+
+line-height:1.8;
+
+color:#dddddd;
+
+}
+
+.about-box ul{
+
+list-style:none;
+
+padding:0;
+
+}
+
+.about-box li{
+
+padding:10px;
+
+font-size:20px;
+
+color:white;
+
+border-bottom:1px solid rgba(255,255,255,.1);
+
+}
